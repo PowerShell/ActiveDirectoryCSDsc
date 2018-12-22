@@ -208,16 +208,18 @@ For more information on Web Enrollment services, see [this article on TechNet](h
 
 ### Unreleased
 
+- Removed unused CAType variables and references in AdcsOnlineResponder - fixes
+  [issue #52](https://github.com/PowerShell/ActiveDirectoryCSDsc/issues/52).
+- Updated Examples to enable publising to PowerShell Gallery - fixes
+  [issue #54](https://github.com/PowerShell/ActiveDirectoryCSDsc/issues/54).
+- Cleaned up property alignment in module manifest file.
+
 ### 3.1.0.0
 
 - Updated LICENSE file to match the Microsoft Open Source Team standard.
 - Added .VSCode settings for applying DSC PSSA rules - fixes [Issue #60](https://github.com/PowerShell/ActiveDirectoryCSDsc/issues/60).
 - Added fix for two tier PKI deployment fails on initial deployment,
   not error - fixes [Issue #57](https://github.com/PowerShell/ActiveDirectoryCSDsc/issues/57).
-- Removed unused CAType variables and references in AdcsOnlineResponder - fixes
-  [issue #52](https://github.com/PowerShell/ActiveDirectoryCSDsc/issues/52).
-- Updated Examples to enable publising to PowerShell Gallery - fixes
-  [issue #54](https://github.com/PowerShell/ActiveDirectoryCSDsc/issues/54).
 
 ### 3.0.0.0
 
